@@ -6,7 +6,7 @@ import (
 	"fmt"
 )
 
-// store provide all function to excute db queries and transaction
+// store provide all function to excute SQL queries and transaction
 type Store struct {
 	*Queries
 	db *sql.DB
